@@ -1,8 +1,10 @@
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+
 import { useStateContext } from "../contexts/ContextProvider";
 import { Button } from ".";
+
 import {
   decrementar,
   addToCart,
